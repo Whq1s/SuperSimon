@@ -42,6 +42,10 @@ public class GenerateSequence : MonoBehaviour
             buttonArray[sequence[i]].interactable = false; 
             }
         }
+
+          foreach (var button in buttonArray){
+             button.interactable = true;
+        }
         currentIndex++;
         isAbleToPlay = true;
     }
