@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 27207842}
   - component: {fileID: 27207841}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 27207842}
   m_OnClick:
     m_PersistentCalls:
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 1182592429}
   - component: {fileID: 1182592428}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1182592429}
   m_OnClick:
     m_PersistentCalls:
@@ -691,7 +691,7 @@ GameObject:
   - component: {fileID: 1254761605}
   - component: {fileID: 1254761604}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1254761605}
   m_OnClick:
     m_PersistentCalls:
@@ -808,6 +808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1485409518}
   - component: {fileID: 1485409519}
+  - component: {fileID: 1485409520}
   m_Layer: 0
   m_Name: botones
   m_TagString: Untagged
@@ -865,6 +866,27 @@ MonoBehaviour:
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
+--- !u!114 &1485409520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485409517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d28f169fa09b344aa9bfe56d95af442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GenerateSequence
+  buttonArray:
+  - {fileID: 1569275861}
+  - {fileID: 1182592428}
+  - {fileID: 27207841}
+  - {fileID: 1684811060}
+  - {fileID: 1254761604}
+  sequence: 0000000000000000000000000000000000000000i
+  isAbleToPlay: 0
+  currentIndex: 0
 --- !u!1 &1569275859
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +900,7 @@ GameObject:
   - component: {fileID: 1569275862}
   - component: {fileID: 1569275861}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -942,7 +964,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1569275862}
   m_OnClick:
     m_PersistentCalls:
@@ -998,7 +1020,7 @@ GameObject:
   - component: {fileID: 1684811061}
   - component: {fileID: 1684811060}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Purple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1062,7 +1084,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1684811061}
   m_OnClick:
     m_PersistentCalls:
