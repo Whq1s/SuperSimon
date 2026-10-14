@@ -21,7 +21,8 @@ public class GenerateSequence : MonoBehaviour
         
     }
 
-    IEnumerator StartGame(){
+    public IEnumerator StartGame()
+    {
         isAbleToPlay = false;
         yield return new WaitForSeconds(0.5f);
         foreach (var button in buttonArray){
