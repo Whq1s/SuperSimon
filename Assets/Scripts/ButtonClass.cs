@@ -3,7 +3,7 @@ using UnityEngine;
 public class ButtonClass : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    //[SerializeField] GameManager gameMan;
+    public GameManager gameMan;
     void Start()
     {
         
@@ -16,6 +16,7 @@ public class ButtonClass : MonoBehaviour
     }
 
     public void PressButton(int value){
-        // gameMan.ComprobarSecuencia();
+        gameMan.ComprobarSecuencia(value);
+        
     }
 }
