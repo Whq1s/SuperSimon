@@ -6,8 +6,8 @@ public class GenerateSequence : MonoBehaviour
 {
 
     [SerializeField] Button[] buttonArray;
-    [SerializeField] public int[] sequence = {0, 0, 0, 0, 0};
-    [SerializeField] public bool isAbleToPlay;
+    public int[] sequence = {0, 0, 0, 0, 0};
+    public bool isAbleToPlay;
     public int currentIndex = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
